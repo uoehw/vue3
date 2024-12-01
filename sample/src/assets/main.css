@@ -1,0 +1,35 @@
+:root {
+    --sample-primary-dark-color-1: #1f2544;
+    --sample-primary-light-color-1: #b5c18e;
+
+    --sample-primary-dark-color-2: #474f7a;
+    --sample-primary-light-color-2: #eadbc8;
+
+    --sample-secondary-dark-color-1: #81689d;
+    --sample-secondary-light-color-1: #c7b7a3;
+
+    --sample-secondary-dark-color-2: #ffd0ec;
+    --sample-secondary-light-color-2: #f1f1f1;
+
+    /*color that does not depend on dark or light theme*/
+    --sample-input-text-focus-color: #2d9fd9;
+}
+
+:root {
+    --sample-primary-color-1: var(--sample-primary-dark-color-1);
+    --sample-primary-color-2: var(--sample-primary-dark-color-2);
+    --sample-secondary-color-1: var(--sample-secondary-dark-color-1);
+    --sample-secondary-color-2: var(--sample-secondary-dark-color-2);
+}
+
+body.light-theme {
+    --sample-primary-color-1: var(--sample-primary-light-color-1);
+    --sample-primary-color-2: var(--sample-primary-light-color-2);
+    --sample-secondary-color-1: var(--sample-secondary-light-color-1);
+    --sample-secondary-color-2: var(--sample-secondary-light-color-2);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
